@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+}
+
+h1{
+    background: white;
+    background: -webkit-linear-gradient(to right, red, white, blue);
+    background: linear-gradient(to right, red, white, blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    color: black;
+    font-weight: 500
+}
+
+.toolbar{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 70px;
+    background-color: rgba(74, 227, 13, 0.936);
+}
+
+.toolbar *{
+    margin-bottom: 6px;
+}
+.toolbar label{
+    font-size: 12px;
+}
+
+.toolbar input{
+    width: 50%;
+}
+
+.toolbar button{
+    background-color: rgba(247, 14, 14, 0.838);
+    border: 1px solid black;
+    border-radius: 4px;
+    color: white;
+    padding: 2px;
+}
